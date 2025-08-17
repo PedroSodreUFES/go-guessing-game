@@ -36,7 +36,7 @@ func main() {
 			fmt.Println("Você errou. o número sorteado é menor que", chuteInt)
 		case chuteInt == x:
 			chutes[i] = x
-			fmt.Printf("Parabéns, você ganhou!\nO número era: %d.\nVocê teve %d tentativas!\nEssas foram suas tentativas: %v", chuteInt, i+1, chutes[:i+1])
+			fmt.Printf("Parabéns, você ganhou!\nO número era: %d.\nVocê teve %d tentativas!\nEssas foram suas tentativas: %v\n", chuteInt, i+1, chutes[:i+1])
 			return
 		}
 
